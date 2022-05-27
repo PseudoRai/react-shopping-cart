@@ -35,7 +35,7 @@ export default class Cart extends Component {
         </div>
     )}
     <div className='cart'>
-        <Fade left cascade >
+        <Fade left cascade>
         <ul className='cart-items'>
             {cartItems.map(item =>(
                 <li key={item._id}>
@@ -54,7 +54,7 @@ export default class Cart extends Component {
                 </li>
             ))}
         </ul>
-        </Fade>
+    </Fade>
     </div>
     {cartItems.length !==0 && (
         <div>
